@@ -1,0 +1,26 @@
+title: Jonathan Freeman
+description: Tech blog
+
+url: http://freethejazz.github.com/
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about.html
+ - title: Contact
+   url: /contact.html
+
+social:
+   github: freethejazz
+   twitter: freethejazz
+   email: freethejazz@gmail.com
+
+google_analytics: ""
