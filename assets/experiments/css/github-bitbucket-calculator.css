@@ -1,0 +1,47 @@
+#results {
+  text-align: center;
+}
+.results-container {
+    position: relative;
+    display: inline-block;
+}
+#winner {
+    position: absolute;
+    opacity: .3;
+    height: 100%;
+    padding: 30px;
+    top: 0;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+}
+.git-win {
+    background: green;
+    width: 150px;
+    left: 0;
+}
+.bit-win {
+    background: green;
+    width: 150px;
+    left: 50%;
+}
+.tie {
+    background: #FFD656;
+    width: 300px;
+    left: 0;
+}
+.one-result {
+    display: inline-block;
+    width: 150px;
+    padding: 30px;
+}
+.host {
+    display: block;
+    text-align: center;
+}
+.cost {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2em;
+}

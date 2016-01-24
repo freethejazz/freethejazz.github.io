@@ -18,6 +18,13 @@ kramdown:
 navigation:
  - title: Home
    url: /index.html
+ - title: Experiments
+   url: /experiments.html
+
+collections:
+  experiments:
+    output: true
+    permalink: /experiments/:path/
 
 social:
    github: freethejazz
