@@ -1,7 +1,7 @@
 ---
 title: PlatformCF - Day One
 layout: post
-date: 2013-09-12
+date: 2013-09-10
 ---
 
 My last few hours have been spent outside in the beautiful fall evening
