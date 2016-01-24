@@ -55,6 +55,20 @@ a {
 	&:hover {
 		color: darken($link-color, 15%);
 	}
+
+  &.external-link {
+    &:before {
+      content: '';
+      font-family: 'FontAwesome';
+      color: grey;
+      margin-right: .5em;
+      font-size: .8em;
+    }
+
+    &:hover:before {
+      color: inherit;
+    }
+  }
 }
 
 
@@ -470,7 +484,7 @@ POST LIST STYLING
 			text-decoration: none;
 
 			&:hover {
-				text-decoration: underline;
+				text-decoration: none;
 			}
 		}
 

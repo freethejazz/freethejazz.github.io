@@ -8,7 +8,11 @@ layout: default
     {% for post in paginator.posts %}
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        {% if post.external %}
+        <h3><a class="post-link external-link" href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
+        {% else %}
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        {% endif %}
         <p class="description">{% if post.description %}{{ post.description | strip_html | truncate: 250 }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>
       </li>
     {% endfor %}
